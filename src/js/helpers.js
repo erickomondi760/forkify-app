@@ -40,4 +40,5 @@ const timer = function () {
       reject(new Error("The response took too long,kindly retry"));
     }, TIMEOUT_SECONDS * 1000);
   });
+  console.log("Ooh my!");
 };
