@@ -139,5 +139,6 @@ const init = function () {
   searchView.addSearchHandler(searchResults);
   paginationView.addBtnClickHandler(controlPagination);
   uploadRecipe.uploadRecipeData(uploadNewRecipe);
+  console.log("Loging");
 };
 init();
